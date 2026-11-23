@@ -23,6 +23,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Waraqa-APK
-          path: project/out/Waraqa-0.2.apk
+          path: project/out/Waraqa-0.3.apk
           retention-days: 7
           if-no-files-found: error
